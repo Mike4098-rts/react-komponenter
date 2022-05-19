@@ -5,6 +5,7 @@ const SectionList = ({ data }) => {
         <div className="header__data" key={section.id}>
           <h1>{section.title}</h1>
         </div>
+       
       ))}
     </div>
   );
