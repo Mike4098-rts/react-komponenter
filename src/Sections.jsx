@@ -4,6 +4,8 @@ const SectionList = ({ data }) => {
       {data.map((section) => (
         <div className="header__data" key={section.id}>
           <h1>{section.title}</h1>
+          <p>{section.body}</p>
+          
         </div>
        
       ))}
